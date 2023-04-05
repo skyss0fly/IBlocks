@@ -1,8 +1,8 @@
 <?php
 
-namespace ipad54\netherblocks\tile;
+namespace skyss0fly\blocks\tile;
 
-use ipad54\netherblocks\Main;
+use skyss0fly\blocks\Main;
 use pocketmine\block\tile\Spawnable;
 use pocketmine\nbt\NbtDataException;
 use pocketmine\nbt\tag\CompoundTag;

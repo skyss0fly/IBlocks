@@ -1,6 +1,6 @@
 <?php
 
-namespace ipad54\netherblocks\blocks;
+namespace skyss0fly\blocks\blocks;
 
 use pocketmine\block\Block;
 use pocketmine\block\BlockBreakInfo;

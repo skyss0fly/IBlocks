@@ -1,12 +1,12 @@
 <?php
 
-namespace ipad54\netherblocks\blocks;
+namespace skyss0fly\netherblocks\blocks;
 
-use ipad54\netherblocks\items\LodestoneCompass;
-use ipad54\netherblocks\Main;
-use ipad54\netherblocks\sound\LodestoneCompassLinkSound;
-use ipad54\netherblocks\tile\Lodestone as TileLodestone;
-use ipad54\netherblocks\utils\CustomIds;
+use skyss0fly\netherblocks\items\LodestoneCompass;
+use skyss0fly\netherblocks\Main;
+use skyss0fly\netherblocks\sound\LodestoneCompassLinkSound;
+use skyss0fly\blocks\tile\Lodestone as TileLodestone;
+use skyss0fly\blocks\utils\CustomIds;
 use pocketmine\block\Block;
 use pocketmine\block\Opaque;
 use pocketmine\item\Compass;

@@ -1,8 +1,8 @@
 <?php
 
-namespace ipad54\netherblocks\items;
+namespace skyss0fly\blocks\items;
 
-use ipad54\netherblocks\utils\CustomIds;
+use skyss0fly\blocks\utils\CustomIds;
 use pocketmine\block\Block;
 use pocketmine\block\BlockFactory;
 use pocketmine\block\BlockLegacyIds;

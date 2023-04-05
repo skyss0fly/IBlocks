@@ -1,6 +1,6 @@
 <?php
 
-namespace ipad54\netherblocks\sound;
+namespace skyss0fly\blocks\sound;
 
 use pocketmine\math\Vector3;
 use pocketmine\network\mcpe\protocol\LevelSoundEventPacket;

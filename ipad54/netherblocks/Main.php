@@ -1,46 +1,46 @@
 <?php
 
-namespace ipad54\netherblocks;
+namespace skyss0fly\blocks;
 
-use ipad54\netherblocks\blocks\Basalt;
-use ipad54\netherblocks\blocks\Blackstone;
-use ipad54\netherblocks\blocks\Campfire;
-use ipad54\netherblocks\blocks\Chain;
-use ipad54\netherblocks\blocks\ChiseledPolishedBlackstone;
-use ipad54\netherblocks\blocks\CryingObsidian;
-use ipad54\netherblocks\blocks\FloorSign;
-use ipad54\netherblocks\blocks\Fungus;
-use ipad54\netherblocks\blocks\GildedBlackstone;
-use ipad54\netherblocks\blocks\Hyphae;
-use ipad54\netherblocks\blocks\Log;
-use ipad54\netherblocks\blocks\NetherGoldOre;
-use ipad54\netherblocks\blocks\Nylium;
-use ipad54\netherblocks\blocks\Planks;
-use ipad54\netherblocks\blocks\PolishedBasalt;
-use ipad54\netherblocks\blocks\PolishedBlackStone;
-use ipad54\netherblocks\blocks\PolishedBlackstoneButton;
-use ipad54\netherblocks\blocks\RespawnAnchor;
-use ipad54\netherblocks\blocks\Roots;
-use ipad54\netherblocks\blocks\Shroomlight;
-use ipad54\netherblocks\blocks\Slab;
-use ipad54\netherblocks\blocks\SoulCampfire;
-use ipad54\netherblocks\blocks\SoulFire;
-use ipad54\netherblocks\blocks\SoulLantern;
-use ipad54\netherblocks\blocks\SoulSoil;
-use ipad54\netherblocks\blocks\SoulTorch;
-use ipad54\netherblocks\blocks\Target;
-use ipad54\netherblocks\blocks\TwistingVines;
-use ipad54\netherblocks\blocks\WallSign;
-use ipad54\netherblocks\blocks\WarpedFungus;
-use ipad54\netherblocks\blocks\WarpedNylium;
-use ipad54\netherblocks\blocks\WarpedWartBlock;
-use ipad54\netherblocks\blocks\WeepingVines;
-use ipad54\netherblocks\blocks\WoodenButton;
-use ipad54\netherblocks\tile\Campfire as TileCampfire;
-use ipad54\netherblocks\items\FlintAndSteel;
-use ipad54\netherblocks\listener\EventListener;
-use ipad54\netherblocks\utils\CustomConfig;
-use ipad54\netherblocks\utils\CustomIds;
+use skyss0fly\blocks\blocks\Basalt;
+use skyss0fly\blocks\blocks\Blackstone;
+use skyss0fly\blocks\blocks\Campfire;
+use skyss0fly\blocks\blocks\Chain;
+use skyss0fly\blocks\blocks\ChiseledPolishedBlackstone;
+use skyss0fly\blocks\blocks\CryingObsidian;
+use skyss0fly\blocks\blocks\FloorSign;
+use skyss0fly\blocks\blocks\Fungus;
+use skyss0fly\blocks\blocks\GildedBlackstone;
+use skyss0fly\blocks\blocks\Hyphae;
+use skyss0fly\blocks\blocks\Log;
+use skyss0fly\blocks\blocks\NetherGoldOre;
+use skyss0fly\blocks\blocks\Nylium;
+use skyss0fly\blocks\blocks\Planks;
+use skyss0fly\blocks\blocks\PolishedBasalt;
+use skyss0fly\blocks\blocks\PolishedBlackStone;
+use skyss0fly\blocks\blocks\PolishedBlackstoneButton;
+use skyss0fly\blocks\blocks\RespawnAnchor;
+use skyss0fly\blocks\blocks\Roots;
+use skyss0fly\blocks\blocks\Shroomlight;
+use skyss0fly\blocks\blocks\Slab;
+use skyss0fly\blocks\blocks\SoulCampfire;
+use skyss0fly\blocks\blocks\SoulFire;
+use skyss0fly\blocks\blocks\SoulLantern;
+use skyss0fly\blocks\blocks\SoulSoil;
+use skyss0fly\blocks\blocks\SoulTorch;
+use skyss0fly\blocks\blocks\Target;
+use skyss0fly\blocks\blocks\TwistingVines;
+use skyss0fly\blocks\blocks\WallSign;
+use skyss0fly\blocks\blocks\WarpedFungus;
+use skyss0fly\blocks\blocks\WarpedNylium;
+use skyss0fly\blocks\blocks\WarpedWartBlock;
+use skyss0fly\blocks\blocks\WeepingVines;
+use skyss0fly\blocks\blocks\WoodenButton;
+use skyss0fly\blocks\tile\Campfire as TileCampfire;
+use skyss0fly\blocks\items\FlintAndSteel;
+use skyss0fly\blocks\listener\EventListener;
+use skyss0fly\blocks\utils\CustomConfig;
+use skyss0fly\blocks\utils\CustomIds;
 use pocketmine\block\Block;
 use pocketmine\block\BlockBreakInfo;
 use pocketmine\block\BlockFactory;
@@ -87,7 +87,7 @@ use pocketmine\scheduler\AsyncTask;
 use pocketmine\Server;
 use pocketmine\utils\Config;
 use ReflectionMethod;
-use const pocketmine\BEDROCK_BLOCK_UPGRADE_SCHEMA_PATH;
+use const skyss0fly\nbtblocks;
 
 class Main extends PluginBase
 {
@@ -137,7 +137,7 @@ class Main extends PluginBase
 		$method = new ReflectionMethod(RuntimeBlockMapping::class, "registerMapping");
 		$method->setAccessible(true);
 
-		$blockIdMap = json_decode(file_get_contents(BEDROCK_BLOCK_UPGRADE_SCHEMA_PATH . 'block_legacy_id_map.json'), true);
+		$blockIdMap = json_decode(file_get_contents(nbtblocks . 'block_legacy_id_map.json'), true);
 		$metaMap = [];
 
 		foreach ($instance->getBedrockKnownStates() as $runtimeId => $nbt) {

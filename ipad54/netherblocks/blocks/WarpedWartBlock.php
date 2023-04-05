@@ -1,6 +1,6 @@
 <?php
 
-namespace ipad54\netherblocks\blocks;
+namespace skyss0fly\blocks\blocks;
 
 class WarpedWartBlock extends NetherWartBlock {
 

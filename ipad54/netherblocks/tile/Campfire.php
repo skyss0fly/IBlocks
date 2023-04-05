@@ -1,6 +1,6 @@
 <?php
 
-namespace ipad54\netherblocks\tile;
+namespace skyss0fly\blocks\tile;
 
 use Exception;
 use pocketmine\block\tile\Container;

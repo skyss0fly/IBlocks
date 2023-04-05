@@ -1,10 +1,10 @@
 <?php
 
-namespace ipad54\netherblocks\listener;
+namespace skyss0fly\blocks\listener;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerCreationEvent;
-use ipad54\netherblocks\player\Player as MyPlayer;
+use skyss0fly\netherblocksblocks\player\Player as MyPlayer;
 
 class EventListener implements Listener {
 

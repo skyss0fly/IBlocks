@@ -1,8 +1,8 @@
 <?php
 
-namespace ipad54\netherblocks\blocks;
+namespace skyss0fly\blocks\blocks;
 
-use ipad54\netherblocks\sound\AnchorChargeSound;
+use skyss0fly\blocks\sound\AnchorChargeSound;
 use pocketmine\block\Opaque;
 use pocketmine\block\utils\BlockDataSerializer;
 use pocketmine\block\VanillaBlocks;

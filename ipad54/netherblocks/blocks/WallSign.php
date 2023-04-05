@@ -1,9 +1,9 @@
 <?php
 
-namespace ipad54\netherblocks\blocks;
+namespace skyss0fly\blocks\blocks;
 
 
-use ipad54\netherblocks\utils\CustomIds;
+use skyss0fly\blocks\utils\CustomIds;
 use pocketmine\block\BaseSign;
 use pocketmine\block\Block;
 use pocketmine\block\utils\NormalHorizontalFacingInMetadataTrait;

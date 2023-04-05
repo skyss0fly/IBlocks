@@ -1,6 +1,6 @@
 <?php
 
-namespace ipad54\netherblocks\utils;
+namespace skyss0fly\blocks\utils;
 
 final class CustomIds {
 

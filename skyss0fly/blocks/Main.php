@@ -97,6 +97,7 @@ class Main extends PluginBase
 
 	protected function onLoad(): void
 	{
+		$this->getLogger()info("IBlocks Loaded");
 		self::$instance = $this;
 		$this->saveResource("config.yml");
 		$this->config = new CustomConfig(new Config($this->getDataFolder() . "config.yml", Config::YAML));

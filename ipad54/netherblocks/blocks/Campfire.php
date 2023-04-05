@@ -1,9 +1,9 @@
 <?php
 
-namespace ipad54\netherblocks\blocks;
+namespace skyss0fly\blocks\blocks;
 
-use ipad54\netherblocks\sound\ItemFrameAddItemSound;
-use ipad54\netherblocks\tile\Campfire as TileCampfire;
+use skyss0fly\blocks\sound\ItemFrameAddItemSound;
+use skyss0fly\blocks\tile\Campfire as TileCampfire;
 use pocketmine\block\Block;
 use pocketmine\block\Transparent;
 use pocketmine\block\utils\HorizontalFacingTrait;

@@ -1,9 +1,9 @@
 <?php
 
-namespace ipad54\netherblocks\blocks;
+namespace skyss0fly\blocks\blocks;
 
-use ipad54\netherblocks\object\NetherTree;
-use ipad54\netherblocks\utils\CustomIds;
+use skyss0fly\blocks\object\NetherTree;
+use skyss0fly\blocks\utils\CustomIds;
 use pocketmine\block\Block;
 use pocketmine\block\BlockFactory;
 use pocketmine\block\Flowable;

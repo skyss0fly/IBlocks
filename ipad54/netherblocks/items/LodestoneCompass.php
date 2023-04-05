@@ -1,6 +1,6 @@
 <?php
 
-namespace ipad54\netherblocks\items;
+namespace skyss0fly\blocks\items;
 
 use pocketmine\item\Item;
 use pocketmine\nbt\tag\CompoundTag;

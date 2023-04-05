@@ -1,10 +1,10 @@
 <?php
 
-namespace ipad54\netherblocks\object;
+namespace skyss0fly\blocks\object;
 
-use ipad54\netherblocks\blocks\Fungus;
-use ipad54\netherblocks\blocks\NetherWartBlock;
-use ipad54\netherblocks\utils\CustomIds;
+use skyss0fly\blocks\blocks\Fungus;
+use skyss0fly\blocks\blocks\NetherWartBlock;
+use skyss0fly \blocks\utils\CustomIds;
 use pocketmine\block\Block;
 use pocketmine\block\BlockFactory;
 use pocketmine\utils\Random;

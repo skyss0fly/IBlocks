@@ -1,5 +1,5 @@
-name: INether
-main: ipad54\netherblocks\Main
-api: 4.17.0
+name: IBlocks
+main: skyss0fly\Blocks\Main
+api: 4.18.2
 version: 1.5.3
-author: ipad54
+author: skyss0fly
